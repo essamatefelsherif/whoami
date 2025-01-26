@@ -1,0 +1,21 @@
+@font-face {
+	font-family: "esm";
+	src: url("./esm.ttf?b07e629d12a37fe8c807c6fb1ed5c26d") format("truetype"),
+		 url("./esm.woff?b07e629d12a37fe8c807c6fb1ed5c26d") format("woff"),
+		 url("./esm.woff2?b07e629d12a37fe8c807c6fb1ed5c26d") format("woff2");
+}
+
+i[class^="esm-"]:before, i[class*=" esm-"]:before {
+	font-family: esm !important;
+	font-style: normal;
+	font-weight: normal !important;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.esm-roadmap:before {
+	content: "\f101";
+}
